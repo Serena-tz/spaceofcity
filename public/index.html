@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0, user-scalable=0">
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <title>实时更新新冠肺炎加拿大疫情地图｜确诊病例｜防护方法｜加拿大疫情数据最新动态｜大温星球</title>
+    <script>
+        (function(){
+            var html=document.documentElement;
+            var whtml=html.getBoundingClientRect().width;
+            html.style.fontSize=whtml/7.5+"px";
+        })();
+    </script>
+  </head>
+  <body>
+    <noscript>
+      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div id="app"></div>
+    <!-- 在此处导入常规的JS文件 -->
+  </body>
+</html>
